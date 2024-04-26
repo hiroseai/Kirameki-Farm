@@ -31,8 +31,6 @@ var swiper = new Swiper('.swiper', {
 /* faq
 ------------------------------------------ */
 $('.faq__item-question').on('click', function (e) {
-    $(e.target).toggleClass('faq__item-question-active');
-
-    var content = $(e.target).next();
-    content.slideToggle();
+    $(this).toggleClass('faq__item-question-active');
+    $(this).next().slideToggle();
 });

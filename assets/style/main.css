@@ -96,11 +96,13 @@ li {
     z-index: 100;
     width: 100%;
     height: 6.3rem;
+    background-color: #ffffff;
 }
 
 @media (min-width: 768px) {
     .header {
         height: 11.4rem;
+        padding: 0 3rem;
     }
 }
 
@@ -256,6 +258,12 @@ li {
 
 /* top
 ------------------------------------------ */
+@media (min-width: 768px) {
+    .top {
+        padding: 0 3rem;
+    }
+}
+
 .top__container {
     padding: 6.3rem 1.6rem 3rem 1.6rem;
 }
@@ -468,6 +476,7 @@ li {
     .about__item-sub-text {
         font-size: 1.5rem;
         line-height: 1.75;
+        letter-spacing: 0.005em;
     }
 }
 
@@ -507,6 +516,8 @@ li {
 
 .features__item {
     margin-bottom: 1.9rem;
+    border-radius: 2.45rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 768px) {
@@ -938,6 +949,7 @@ li {
 @media (min-width: 768px) {
     .top-main {
         position: relative;
+        padding: 0 3rem;
     }
 }
 
@@ -1141,6 +1153,18 @@ li {
 
 @media (min-width: 768px) {
     .swiper__slide-image {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 17px;
+        left: 0;
         width: 100%;
     }
 }
@@ -1356,13 +1380,13 @@ table td {
 /* faq
 ------------------------------------------ */
 .faq__container {
-    padding: 1.6rem 1.6rem 1.5rem 1.6rem;
+    padding: 1.6rem 1.6rem 14.75rem 1.6rem;
 }
 
 @media (min-width: 768px) {
     .faq__container {
         max-width: 80rem;
-        padding: 6rem 0 0.5rem 0;
+        padding: 6rem 0 4.9rem 0;
     }
 }
 
@@ -1370,13 +1394,13 @@ table td {
     border: 1px solid #cccccc;
     border-radius: 1.5rem;
     padding-bottom: 1.8rem;
-    margin-bottom: 1.96rem;
+    margin-bottom: 2.2rem;
 }
 
 @media (min-width: 768px) {
     .faq__item {
         padding-bottom: 1.7rem;
-        margin-bottom: 2.3rem;
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -1387,7 +1411,7 @@ table td {
 
 @media (min-width: 768px) {
     .faq__item-question {
-        padding: 2.3rem 6rem 0 7.2rem;
+        padding: 2.2rem 6rem 0 7.2rem;
     }
 }
 
@@ -1450,6 +1474,12 @@ table td {
     }
 }
 
+@media (min-width: 768px) {
+    .faq__item-label-unit--number7 {
+        margin-bottom: 0.1rem;
+    }
+}
+
 .faq__item-label {
     font-size: 1.1rem;
     font-weight: 400;
@@ -1486,50 +1516,66 @@ table td {
     font-weight: 400;
     line-break: anywhere;
     line-height: 1.75;
-    padding: 0.3rem 2rem 0.24rem 2.5rem;
+    letter-spacing: 0.01em;
+    padding: 0.3rem 2rem 0 2.4rem;
 }
 
 @media (min-width: 768px) {
     .faq__item-answer-text {
         font-size: 1.6rem;
+        line-height: 1.75;
+        letter-spacing: 0.005em;
+        padding: 1.8rem 3rem 0 3.1rem;
     }
 }
 
 @media (max-width: 767px) {
-    .faq__item-answer-text--pt5 {
-        padding: 0 2rem 0.34rem 2.5rem;
+    .faq__item-answer-text--number5 {
+        padding: 0.1rem 2rem 0 2.4rem;
     }
 }
 
 @media (max-width: 767px) {
-    .faq__item-answer-text--pt7 {
-        padding: 0.3rem 2rem 0.34rem 2.5rem;
+    .faq__item-answer-text--number7 {
+        padding: 0.3rem 2rem 0.1rem 2.4rem;
     }
 }
 
 @media (max-width: 767px) {
-    .faq__item-answer-text--pt8 {
-        padding: 0.3rem 2rem 0.34rem 2.5rem;
+    .faq__item-answer-text--number8 {
+        padding: 0.3rem 2rem 0.1rem 2.4rem;
     }
 }
 
 @media (max-width: 767px) {
-    .faq__item-answer-text--pt9 {
-        padding: 0.2rem 2rem 0.24rem 2.5rem;
+    .faq__item-answer-text--number9 {
+        padding: 0.2rem 2rem 0 2.4rem;
     }
 }
 
 @media (max-width: 767px) {
-    .faq__item-answer-text--pt11 {
-        padding: 1rem 2rem 0.34rem 2.5rem;
+    .faq__item-answer-text--number11 {
+        padding: 1rem 2rem 0 2.4rem;
     }
 }
 
+@media (min-width: 768px) {
+    .faq__item-answer-text--number8 {
+        padding: 1.7rem 3rem 0.1rem 3.1rem;
+    }
+}
 
+@media (min-width: 768px) {
+    .faq__item-answer-text--number9 {
+        padding: 1.7rem 2rem 0.1rem 3.1rem;
+    }
+}
 
-
-
-
+@media (min-width: 768px) {
+    .faq__item-answer-text--number10 {
+        padding: 1.7rem 2rem 0 3.1rem;
+    }
+}
 
 /* footer
 ------------------------------------------ */
