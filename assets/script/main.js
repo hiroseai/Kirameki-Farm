@@ -11,7 +11,7 @@ $(window).on('resize', function () {
 });
 
 $('.header__nav a[href^="#"]').on('click', function () {
-    $('.header__hamburger-button').click();
+    removeClass('header__nav-active');
 });
 
 /* cover

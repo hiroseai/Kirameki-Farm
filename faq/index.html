@@ -33,9 +33,9 @@
 <body>
     <header class="header container">
         <div class="header__container container-body">
-            <h1 class="header__logo">
+            <div class="header__logo">
                 <img src="../assets/image/header/header_logo.png" alt="Kirameki Farm">
-            </h1>
+            </div>
             <div class="header__hamburger-button">
                 <img src="../assets/image/header/header_icon_bar.png" alt="">
             </div>
@@ -43,7 +43,7 @@
                 <ul class="header__nav-list">
                     <li class="header__nav-item"><a href="/">トップ</a></li>
                     <li class="header__nav-item"><a href="/price">価格・スペック</a></li>
-                    <li class="header__nav-item"><a href="/faq">よくあるご質問</a></li>
+                    <li class="header__nav-item header__nav-item--green"><a href="/faq">よくあるご質問</a></li>
                 </ul>
             </nav>
         </div>
@@ -58,7 +58,7 @@
                         <img src="../assets/image/faq/faq_sp.jpg" alt="">
                     </picture>
                 </div>
-                <h2 class="top-main-title faq-top__title">よくあるご質問</h2>
+                <h1 class="top-main-title faq-top__title">よくあるご質問</h1>
                 <nav>
                     <ol class="breadcrumb faq__breadcrumb">
                         <li><a href="/">トップ</a></li>
@@ -209,8 +209,8 @@
     <footer class="footer container">
         <div class="footer__container container-body">
             <ul class="footer__nav">
-                <li class="footer__nav-text"><a href="/price">価格・スペック</a></li>
-                <li class="footer__nav-text footer__nav-text--small"><a href="/price">よくあるご質問</a></li>
+                <li><a href="/price" class="footer__nav-link">価格・スペック</a></li>
+                <li><a href="/faq" class="footer__nav-link footer__nav-link--small">よくあるご質問</a></li>
             </ul>
         </div>
     </footer>
