@@ -722,6 +722,7 @@ li {
 @media (min-width: 768px) {
     .products-service__item--change:hover span:nth-child(1) {
         opacity: 0;
+        display: none;
     }
 }
 
